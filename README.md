@@ -31,3 +31,4 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## use node version 18
 ## to generate module ng generate module my-module
 ## ng g module creditcards --route creditcards --module app.module
+## git remote set-url origin https://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@github.com/merryglen081606/devtechMD_web.git
