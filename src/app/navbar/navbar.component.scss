@@ -1,0 +1,90 @@
+// .navbar_content{
+//     height: 70px;
+//     width: 100%;
+//     display: flex;
+//     background: #000000;
+//     border: 1px solid red;
+
+//     p, ul li a{
+//         display: flex;
+//         color: #ffffff;
+//         align-items: center;
+//         text-decoration: none;
+//         font-style: normal;
+
+//     }
+//     p{
+//         font-size: 24px;
+//         font-weight: bold;
+        
+//     }
+//     li{
+//         display: inline-block;
+//         font-size: 16px;
+//         font-weight: 800;
+        
+//     }
+// }
+.navbar_content {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 120px;
+    padding-right: 120px;
+    // border: 1px solid red;
+    background-color: #000000;
+  }
+  
+  .navbar_title {
+    font-size: 24px;
+    color: white;
+    font-weight: bold;
+    margin-right: auto;
+    font-family: sans-serif;
+  }
+  
+  .navbar_menu {
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+  }
+ 
+  .btn_contact{
+        height: 38px;
+        border-radius: 80px;
+        width: fit-content;
+        background-color: transparent !important;
+        outline: 1.4px solid #ffff;
+        border: none !important;
+        color:  #ffff;
+        padding: 10px 34px 10px 34px;    
+        font-family: sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+  }
+  .btn_contact:hover{
+    background: #ffff !important; 
+    color: #000000;
+    outline: none;
+  }
+  .navbar_menu li {
+    margin: 0 20px;
+  }
+  
+  .navbar_menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: sans-serif;
+  }
+  
+  .navbar_contact {
+    margin-left: auto; /* Push the contact to the right */
+  }
+  
+  .navbar_menu li a:hover {
+    text-decoration: underline;
+  }
